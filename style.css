@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00004d;
+    color: #ffffff;
+}
+
+#drum-kit {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #ffffff;
+}
+
+#drum-kit h1 {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#drum-kit p {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+#key-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 95%;
+}
+
+#key-input button {
+    background-color: #00004d;
+    color: #ffffff;
+    font-size: 32px;
+    width: 30%;
+    padding: 40px 0;
+    border: solid 3px #ffffff;
+}
